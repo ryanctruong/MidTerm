@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_popName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/pop_name_string" />
+
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/et_popName"
+            />
+
+        <TextView
+            android:id="@+id/tv_popNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/pop_number_int" />
+
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/et_popNumber"
+            android:inputType="number"
+            />
+
+        <TextView
+            android:id="@+id/tv_popType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/pop_type_string" />
+
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:id="@+id/et_popType"
+            />
+
+        <TextView
+            android:id="@+id/tv_fandom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/fandom_string" />
+
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:id="@+id/et_fandom"
+            />
+
+        <TextView
+            android:id="@+id/tv_on"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/on_boolean" />
+
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:id="@+id/et_on"
+            android:inputType="number"
+            />
+
+        <TextView
+            android:id="@+id/tv_ultimate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ultimate_string" />
+
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:id="@+id/et_ultimate"
+            />
+
+        <TextView
+            android:id="@+id/tv_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/price_double" />
+
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:inputType="numberDecimal"
+            android:id="@+id/et_price"
+            />
+
+        <Button
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/add_to_read_list"
+            android:id="@+id/button"
+            />
+
+
+        <Button
+            android:id="@+id/button_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/delete_oldest_funkopop" />
+
+        <ListView
+            android:id="@+id/list_LV"
+            android:layout_width="421dp"
+            android:layout_height="254dp"
+            android:layout_gravity="center" />
+    </LinearLayout>
+</ScrollView>

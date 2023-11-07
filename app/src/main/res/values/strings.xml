@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">testing</string>
+    <string name="pop_name_string">POP NAME (STRING)</string>
+    <string name="pop_number_int">POP NUMBER (INT)</string>
+    <string name="pop_type_string">POP TYPE (STRING)</string>
+    <string name="fandom_string">FANDOM (STRING)</string>
+    <string name="on_boolean">ON (BOOLEAN)</string>
+    <string name="ultimate_string">ULTIMATE (STRING)</string>
+    <string name="price_double">PRICE (DOUBLE)</string>
+    <string name="add_to_read_list">Add to Read List</string>
+    <string name="delete_oldest_funkopop">Delete Oldest FunkoPop</string>
+</resources>
